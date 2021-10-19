@@ -4,9 +4,9 @@ author: "Jack Quach"
 date: "`r Sys.time()`"
 output: 
   html_document:
-    # toc: true
-    # toc_float: false
-    # toc_collapsed: true
+    toc: true
+    toc_float: false
+    toc_collapsed: true
     number_sections: false
 ---
 
@@ -89,7 +89,7 @@ cars %>%
   ggplot(aes(x = speed, y = dist)) +
   geom_point() + 
   geom_smooth() +
-  theme_classic()
+  theme_bw()
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
@@ -172,6 +172,7 @@ https://r-pkgs.org/git.html
 https://ohi-science.org/data-science-training/github.html
 
 
+# Extra
 
 
 
