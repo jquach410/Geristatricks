@@ -171,8 +171,3 @@ https://r-pkgs.org/git.html
 
 https://ohi-science.org/data-science-training/github.html
 
-
-# Extra
-
-
-
